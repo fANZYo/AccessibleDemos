@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta name="robots" content="noindex">
+		<meta name="viewport" content="width=device-width">
+
+		<meta property="og:title" content="Accessible Popup Demo">
+		<meta property="og:type" content="website">
+		<meta property="og:image" content="https://fanzyo.github.io/AccessibleDemos/popups/popup.jpg">
+
+		<title>Accessible Popup</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<div class="Dialog__overlay js-dialog-overlay" hidden>
+			<div
+				class="Dialog js-dialog"
+				role="dialog"
+				aria-modal="true"
+				tabindex="-1"
+			>
+				<h2 class="Dialog__title">Accessible Modal Dialog</h2>
+				<p class="Dialog__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua?</p>
+
+				<button type="button" class="js-cancel">Cancel</button>
+				<button type="button" class="Dialog__okay js-confirm">Okay</button>
+			</div>
+		</div>
+
+		<div class="Header"></div>
+
+		<main class="container js-content">
+			<h1>Accessible popup</h1>
+
+			<section>
+				<h2>First dummy content</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="#">Duis aute</a> irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="#">Duis aute</a> irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</section>
+
+
+			<section class="Trigger">
+				<h2>Demo popup</h2>
+				<button class="Trigger__button js-trigger" type="button" aria-haspopup="dialog">Toggle popup</button>
+			</section>
+
+
+			<section>
+				<h2>Last dummy content</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="#">Duis aute</a> irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="#">Duis aute</a> irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</section>
+		</main>
+
+		<script src="main.js"></script>
+	</body>
+</html>

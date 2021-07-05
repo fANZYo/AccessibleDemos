@@ -1,0 +1,123 @@
+.noscroll {
+	overflow: hidden;
+}
+
+.Dialog__overlay:not([hidden]) {
+	align-items: center;
+	background: hsla(0, 0%, 0%, 0.85);
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************************
+ * LOOK AND fEEL
+ ****************************/
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 1.6rem;
+	margin: 0;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 70rem;
+	width: 90%;
+}
+
+p {
+	line-height: 1.618;
+}
+
+button {
+	background: hsl(0, 0%, 90%);
+	border: 0;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: 600;
+	padding: 1em 1.5em;
+}
+
+.Header {
+	background: hsl(0, 0%, 90%);
+	border-bottom: 1px solid hsl(0, 0%, 85%);
+	height: 7.5rem;
+	margin-bottom: 5rem;
+}
+
+h1 {
+	border-bottom: 1px solid hsl(0, 0%, 85%);
+	font-size: 4.2rem;
+	padding-bottom: 0.5rem;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+.Trigger {
+	background: hsl(0, 0%, 95%);
+	border-radius: 5px;
+	margin: 5rem 0;
+	padding: 2rem;
+}
+
+.Trigger__button {
+	background: hsl(225, 100%, 30%);
+	color: hsl(0, 0%, 100%);
+}
+
+.Dialog {
+	background: hsl(0, 0%, 100%);
+	border-radius: 5px;
+	max-width: 50rem;
+	padding: 3rem;
+	width: 80%;
+}
+
+.Dialog__title {
+	font-size: 1.8rem;
+}
+
+.Dialog__text {
+	color: hsl(0, 0%, 34%);
+	margin-bottom: 3rem;
+}
+
+.Dialog__okay {
+	background: hsl(150, 100%, 30%);
+	color: hsl(0, 0%, 100%);
+}
