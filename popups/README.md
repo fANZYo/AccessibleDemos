@@ -13,3 +13,8 @@ Focus management is key, if it is not handled correctly users might be lost in t
 ## Demo
 
 [Demo](https://fanzyo.github.io/AccessibleDemos/popups/)
+
+## References
+
+- [The official W3 modal implementation](https://www.w3.org/TR/wai-aria-practices/#dialog_modal) **NOTE**: At the time of writing, the example in this reference is not supported by VoiceOver and TalkBack
+- [(MDN) ARIA: dialog role](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/dialog_role)
